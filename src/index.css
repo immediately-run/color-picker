@@ -1,0 +1,13 @@
+/* Minimal reset + full-bleed root for the color-picker task app. The overlay host
+   frames it; this just fills its slot. */
+* { box-sizing: border-box; }
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  background: #16181d;
+}
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; }

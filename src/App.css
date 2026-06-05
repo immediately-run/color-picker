@@ -1,0 +1,3 @@
+/* App-level layout: let the picker fill the overlay body. */
+#root { display: flex; }
+#root > * { flex: 1 1 auto; }
