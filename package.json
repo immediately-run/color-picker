@@ -10,6 +10,12 @@
         "task": "pick-color",
         "version": "1.0"
       }
+    ],
+    "mounts": [
+      {
+        "uri": "space:eager-test-ungranted",
+        "required": true
+      }
     ]
   },
   "scripts": {
