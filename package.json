@@ -5,12 +5,14 @@
   "type": "module",
   "immediately.run": {
     "requireLatest": "stale_ok",
-    "provides": [
-      {
-        "task": "pick-color",
-        "version": "1.0"
+    "requests": {
+      "net:fetch": {
+        "hosts": [
+          "https://api.github.com"
+        ],
+        "required": true
       }
-    ]
+    }
   },
   "scripts": {
     "dev": "vite",
@@ -19,7 +21,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@immediately-run/sdk": "0.2.8",
+    "@immediately-run/sdk": "0.4.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
   },
