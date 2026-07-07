@@ -25,7 +25,7 @@ export default function ColorPicker() {
   return (
     <div className="cp">
       <header className="cp-hd">
-        <span className="cp-title">Pick a color</span>
+        <span className="cp-title">Pick a color · GATE-2 VARIANT</span>
         <span className="cp-current" aria-label={`current color ${initial}`}>
           <span className="cp-chip" style={{ background: initial }} />
           <code>{initial}</code>
